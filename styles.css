@@ -1,0 +1,31 @@
+
+#home{
+    text-align: center  ;
+    color: black;
+    
+}
+
+body{
+    background-color:white ;
+}
+
+.btn{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+
+
+
+p{
+    font-size: 20px;
+}

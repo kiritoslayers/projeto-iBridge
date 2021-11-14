@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+    <title>Ibridge</title>
+    
+</head>
+<body>
+
+    <h1 id="home">Questões</h1>
+    <br>
+    <h3>2</h3>
+    <p>Ordernar este array em order crescente [1,3,4,9,5,7,2,6,20,11,12,17] (Utilizar a função sort, ou equivalente);</p>
+    <button class="btn" onclick="cresente()">Acionar função</button> 
+
+    <h3>3</h3>
+    <p>Ordernar este array em order decrescente [1,3,4,9,5,7,2,6,15,12] (Utilizar a função sort, ou equivalente);</p>
+    <button class="btn" onclick="decresente()">Acionar função</button>
+
+    <h3>4</h3>
+    <p>Contar quantos caracteres existem na seguinte frase:
+        <br>
+       <div id="tamanhoTexto"> "What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+       </div>
+    </p>
+    <button class="btn" onclick="contaCaracteres()">Acionar função</button>
+    
+    <h3>5</h3>
+    <p>Na seguinte frase "O joão robou pão na casa do marcelo":</p>
+    <p>5.1 - Substituir a palavra "marcelo" por "joão" (usar replace);</p>
+    <button class="btn" onclick="substituirPalavras()">Acionar função</button>
+
+    <p>5.2 Substituir a palavra "pão" por "torta" (usar replace);</p>
+    <button class="btn" onclick="substituirPalavras2()">Acionar função</button>
+    
+    <p>5.3 - Remover a palavra "joão" (usar replace, slice ou equivalente);</p>
+    <button class="btn" onclick="removerPalavras()">Acionar função</button>
+
+    <p>5.4 - Cortar as 5 primeiras letras do texto (usar slice);</p>
+    <button class="btn" onclick="removerPalavrasTextoSlice()">Acionar função</button>
+
+    <p>5.5 - Adicionar, no final do texto a palavra " da IBRS";</p>
+    <button class="btn" onclick="adicionarTexto()">Acionar função</button>
+
+    <p>5.6 - Mostrar somente o final da frase, a partir de "casa do da IBRS..." (usar split);</p>
+    <button class="btn" onclick="textoSplit()">Acionar função</button>
+
+    <h3>6</h3>
+
+    <p>No seguinte array ['João','Marcelo','Marcus','Lucas','Nelson']:</p>
+
+    <p>6.1 - Adicionar a palavra "Azeite" (usar push);</p>
+    <button class="btn" onclick="addLista()" >Acionar função</button>
+   
+    <p>6.2 - Remover a palavra "Marcelo" (usar splice);</p>
+    <button class="btn" onclick="removeLista()" >Acionar função</button>
+    
+    <p>6.3 - Ordenar por ordem alfabética;</p>
+    <button class="btn" onclick="ordenaLista()" >Acionar função</button>
+    
+    <p>6.4 - Contar quantos registros existem no array;</p>
+    <button class="btn" onclick="tamanhoLista()">Acionar função</button>
+    
+    
+</body>
+</html>
